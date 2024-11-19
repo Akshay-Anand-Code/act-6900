@@ -74,7 +74,7 @@ const ACT6900 = () => {
     )
   },
   eyes: {
-    title: 'Eyes of the Blind.exe',
+    title: 'Nudes',
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">Nudes </h2>
@@ -102,13 +102,15 @@ const DesktopIcon = ({ icon }) => (
 );
 
 
- DesktopIcon.propTypes = {
-   icon: PropTypes.shape({
-     id: PropTypes.string.isRequired,
-     name: PropTypes.string.isRequired,
-     type: PropTypes.string.isRequired
-   }).isRequired
- };
+DesktopIcon.propTypes = {
+  icon: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string.isRequired,  // Add this line to validate imgSrc
+  }).isRequired
+};
+
  
  const Window = ({ id, onClose }) => {
    const content = windowContents[id];
@@ -169,13 +171,13 @@ const DesktopIcon = ({ icon }) => (
  );
 
  const icons = [
-  { id: 'mycomputer', name: 'X.exe', type: 'exe', imgSrc: '/icons/x-icon.png' },
+  { id: 'mycomputer', name: 'X.exe', type: 'exe', imgSrc: '/icons/x-icon.PNG' },
   { id: 'darkmaze', name: 'PumpFun.exe', type: 'exe', imgSrc: 'icons/IMG_3026.PNG' },
-  { id: 'instakarma', name: 'Telegram.exe', type: 'exe', imgSrc: '/icons/telegram-icon.png' },
-  { id: 'network', name: 'Contract Address.exe', type: 'exe', imgSrc: '/icons/network-icon.png' },
-  { id: 'totem', name: 'Act6900.exe', type: 'exe', imgSrc: '/icons/act6900-icon.png' },
+  { id: 'instakarma', name: 'Telegram.exe', type: 'exe', imgSrc: '/icons/telegram-icon.PNG' },
+  { id: 'network', name: 'Contract Address.exe', type: 'exe', imgSrc: '/icons/network-icon.PNG' },
+  { id: 'totem', name: 'Act6900.exe', type: 'exe', imgSrc: '/icons/act6900-icon.PNG' },
   
-   { id: 'eyes', name: 'Eyes of the\nBlind.exe', type: 'exe' },
+   { id: 'eyes', name: 'Nudes.exe', type: 'exe', imgSrc: '/icons/nudes.png' },
    { id: 'recycle', name: 'Recycle Bin', type: 'bin' },
    { id: 'omage', name: 'Omage.apk', type: 'apk' },
    { id: 'krokodil', name: 'Krokodil.exe', type: 'exe' },
