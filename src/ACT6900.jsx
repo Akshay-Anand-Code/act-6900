@@ -90,10 +90,9 @@ const DesktopIcon = ({ icon }) => (
     className="w-28 text-center mb-1 cursor-pointer p-1 hover:bg-blue-900/20"
     onClick={() => setActiveWindow(icon.id)}
   >
-    {/* Use the icon image from the public folder */}
     <div className="mx-auto w-8 h-8 mb-1 border border-gray-400 shadow-sm">
       <img 
-        src={`/icons/${icon.id}-icon.png`}  // Adjust the path if necessary
+        src={icon.imgSrc}
         alt={icon.name}
         className="w-full h-full object-contain"
       />
@@ -101,6 +100,8 @@ const DesktopIcon = ({ icon }) => (
     <div className="text-white text-xs whitespace-pre-line shadow-sm bg-black px-1">{icon.name}</div>
   </div>
 );
+
+
  DesktopIcon.propTypes = {
    icon: PropTypes.shape({
      id: PropTypes.string.isRequired,
@@ -169,7 +170,7 @@ const DesktopIcon = ({ icon }) => (
 
  const icons = [
   { id: 'mycomputer', name: 'X.exe', type: 'exe', imgSrc: '/icons/x-icon.png' },
-  { id: 'darkmaze', name: 'PumpFun.exe', type: 'exe', imgSrc: 'public/IMG_3026.PNG' },
+  { id: 'darkmaze', name: 'PumpFun.exe', type: 'exe', imgSrc: 'icons/IMG_3026.PNG' },
   { id: 'instakarma', name: 'Telegram.exe', type: 'exe', imgSrc: '/icons/telegram-icon.png' },
   { id: 'network', name: 'Contract Address.exe', type: 'exe', imgSrc: '/icons/network-icon.png' },
   { id: 'totem', name: 'Act6900.exe', type: 'exe', imgSrc: '/icons/act6900-icon.png' },
