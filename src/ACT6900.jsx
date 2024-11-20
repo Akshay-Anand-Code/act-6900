@@ -16,9 +16,11 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-4">X</h2>
-        <p><a href="hhttps://x.com/ACT6900" className="text-blue-500 hover:underline">
+        <p><a href="https://x.com/ACT6900" className="text-blue-500 hover:underline">
         https://x.com/ACT6900
           </a></p>
+        <img src="icons/xs.png" alt="X " className="mb-4" />
+        
       </div>
     )
   },
@@ -27,12 +29,13 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">PUMPFUN</h2>
-        <img src="/api/placeholder/400/200" alt="PumpFun " className="mb-4" />
         <p>
           <a href="https://pump.fun/coin/795QryjuTkWk2eT3HnJZ2Y6GZCSLToknv57jF93pump" className="text-blue-500 hover:underline">
             https://pump.fun/coin/795QryjuTkWk2eT3HnJZ2Y6GZCSLToknv57jF93pump
           </a>
         </p>
+        <img src="icons/pumps.png" alt="PumpFun " className="mb-4" />
+        
       </div>
     )
   },
@@ -42,10 +45,11 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">TELEGRAM</h2>
-        <img src="/api/placeholder/400/200" alt="Telegram " className="mb-4" />
         <p><a href="https://t.me/ACT6900" className="text-blue-500 hover:underline">
         https://t.me/ACT6900
           </a></p>
+        <img src="icons/TS.png" alt="Telegram " className="mb-4" />
+        
       </div>
     )
   },
@@ -68,8 +72,9 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">ACT6900</h2>
-        <img src="/api/placeholder/400/200" alt="Act6900 " className="mb-4" />
-        <p>Welcome to Act6900. Your gateway to the future.</p>
+        <p>Welcome to Act6900.</p>
+        <img src="icons/log.jpg" alt="Act6900 " className="mb-4" />
+        
       </div>
     )
   },
@@ -78,8 +83,9 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">Nudes </h2>
-        <img src="/api/placeholder/400/200" alt="Eyes " className="mb-4" />
-        <p>See what others cannot. Uncover the truth hidden in plain sight.</p>
+        <p>You are bad boy Senpai HUH!</p>
+        <img src="/icons/nud.jpeg" alt="Eyes " className="mb-4" />
+        
       </div>
     )
   }
