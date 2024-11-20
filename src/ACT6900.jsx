@@ -34,7 +34,7 @@ const ACT6900 = () => {
           https://pump.fun/coin/AMYathtzia6LsRtj1MKTZKwrKnvV7FAwtr6JHhxpump
           </a>
         </p>
-        <img src="icons/pumps.png" alt="PumpFun " className="mb-4" />
+        <img src="icons/pumps1.png" alt="PumpFun " className="mb-4" />
         
       </div>
     )
