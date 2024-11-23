@@ -30,8 +30,8 @@ const ACT6900 = () => {
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">PUMPFUN</h2>
         <p>
-          <a href="https://pump.fun/coin/AMYathtzia6LsRtj1MKTZKwrKnvV7FAwtr6JHhxpump" className="text-blue-500 hover:underline">
-          https://pump.fun/coin/AMYathtzia6LsRtj1MKTZKwrKnvV7FAwtr6JHhxpump
+          <a href="https://pump.fun/coin/a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump" className="text-blue-500 hover:underline">
+          https://pump.fun/coin/a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump
           </a>
         </p>
         <img src="icons/pumps1.png" alt="PumpFun " className="mb-4" />
@@ -61,7 +61,7 @@ const ACT6900 = () => {
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gray-300"></div>
-            <span>AMYathtzia6LsRtj1MKTZKwrKnvV7FAwtr6JHhxpump</span>
+            <span>a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump</span>
           </div>
         </div>
       </div>
