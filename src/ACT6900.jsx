@@ -30,11 +30,11 @@ const ACT6900 = () => {
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">PUMPFUN</h2>
         <p>
-          <a href="https://pump.fun/coin/a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump" className="text-blue-500 hover:underline">
-          https://pump.fun/coin/a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump
+          <a href="https://pump.fun/coin/axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump" className="text-blue-500 hover:underline">
+          https://pump.fun/coin/axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump
           </a>
         </p>
-        <img src="icons/a1.png" alt="PumpFun " className="mb-4" />
+        <img src="icons/ax.png" alt="PumpFun " className="mb-4" />
         
       </div>
     )
@@ -61,7 +61,7 @@ const ACT6900 = () => {
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gray-300"></div>
-            <span>a1HT7c6VkSWixt45Xw9wYj21zesDjPz69AWYKWXpump</span>
+            <span>axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump</span>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@ DesktopIcon.propTypes = {
      <div className="fixed bottom-0 left-0 right-0 h-8 bg-gray-200 border-t border-white flex items-center">
        <button 
          //onClick={() => setStartMenuOpen(!startMenuOpen)}
-         onClick={() => (window.location.href = 'https://pump.fun/coin/AMYathtzia6LsRtj1MKTZKwrKnvV7FAwtr6JHhxpump')}
+         onClick={() => (window.location.href = 'https://pump.fun/coin/axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump')}
          className="h-6 px-2 mx-1 flex items-center bg-gray-200 border border-gray-400 hover:bg-gray-300"
        >
          <span className="font-bold">Start</span>
