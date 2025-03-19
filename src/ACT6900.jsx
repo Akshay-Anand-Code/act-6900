@@ -16,8 +16,8 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-4">X</h2>
-        <p><a href="https://x.com/ACT6900" className="text-blue-500 hover:underline">
-        https://x.com/ACT6900
+        <p><a href="" className="text-blue-500 hover:underline">
+        
           </a></p>
         <img src="icons/xs.png" alt="X " className="mb-4" />
         
@@ -30,8 +30,8 @@ const ACT6900 = () => {
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">PUMPFUN</h2>
         <p>
-          <a href="https://pump.fun/coin/axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump" className="text-blue-500 hover:underline">
-          https://pump.fun/coin/axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump
+          <a href="" className="text-blue-500 hover:underline">
+          
           </a>
         </p>
         <img src="icons/ax.png" alt="PumpFun " className="mb-4" />
@@ -45,8 +45,8 @@ const ACT6900 = () => {
     content: (
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">TELEGRAM</h2>
-        <p><a href="https://t.me/ACT6900" className="text-blue-500 hover:underline">
-        https://t.me/ACT6900
+        <p><a href="" className="text-blue-500 hover:underline">
+        
           </a></p>
         <img src="icons/TS.png" alt="Telegram " className="mb-4" />
         
@@ -61,7 +61,7 @@ const ACT6900 = () => {
         <div className="space-y-2">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gray-300"></div>
-            <span>axEdrD5oSzVyYwuWgmh5UQYV7C6TzBN4zK4T6SFpump</span>
+            <span></span>
           </div>
         </div>
       </div>
